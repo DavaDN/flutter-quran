@@ -97,6 +97,15 @@ class _QuranSurahListState extends State<QuranSurahList> {
                           ),
                           const SizedBox(height: 4.0),
                           Text(
+                            surahs[index].namaLatin,
+                            style: const TextStyle(
+                              fontSize: 14.0,
+                              fontStyle: FontStyle.italic,
+                              color: Colors.white70,
+                            ),
+                          ),
+                          const SizedBox(height: 4.0),
+                          Text(
                             surahs[index].arti,
                             style: const TextStyle(
                               fontSize: 12.0,
