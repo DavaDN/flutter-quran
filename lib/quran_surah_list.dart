@@ -59,7 +59,6 @@ class _QuranSurahListState extends State<QuranSurahList> {
                     final surahDetail =
                         await httpService.fetchSurahDetail(surahs[index].nomor);
                     Navigator.push(
-                      // ignore: use_build_context_synchronously
                       context,
                       MaterialPageRoute(
                         builder: (context) => SurahDetail(surah: surahDetail),
